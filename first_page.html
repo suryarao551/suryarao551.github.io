@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <!--Including CSS code in HTML-->
+    <link rel="stylesheet" href="styles.css">
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <title>
+        Basics Of HTML
+    </title>
+</head>
+        <body>
+            <!--headers h1 to h6-->
+            <h1>My first heading</h1>
+            <h2>My second head</h2>
+            <h3>My third header</h3>
+            <!--Paras-->
+            <!--JS opening-->
+            <p id="demo">My first Para</p>
+            <p id="loda">My first JS</p>
+            <script>function myFunction() {
+                const obj = {
+                    name : "Prathamesh",
+                    work : "Data Scientist",
+                }
+                document.getElementById("demo").innerHTML = "I am " + obj.name + " and I work as a "+ obj.work;
+            }</script>
+            
+            <button type="button" onclick="document.write(69+69)">whats is 69+69</button>
+            
+            <button type="button" onclick='myFunction()'>Introduce Yourself</button>
+            
+            <!--Link in HTMl-->
+            <a href="mailto: prathameshworks247@gmail.com">Send email</a><br>
+            <a href="https://www.w3schools.com" target="_blank">Link</a><br> <!--Opens in new window-->
+            <a href="https://www.w3schools.com" target="_self">Link</a><br> <!--Opens in same window-->
+            <a href="https://www.w3schools.com/html/" title="Go to W3Schools HTML section">Visit our HTML Tutorial</a><br>
+            <h2>Absolute URLs</h2>
+            <p><a href="https://www.w3.org/">W3C</a></p>
+            <p><a href="https://www.google.com/">Google</a></p>
+
+            <h2>Relative URLs</h2>
+            <p><a href="html_images.asp">HTML Images</a></p>
+            <p><a href="/css/default.asp">CSS Tutorial</a></p>
+            <br>
+            <!--image insertion, src ,alt, width and height  are the attributes-->
+            <img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142">
+            <img src="workplace.jpg" alt="Workplace" usemap="#workmap">
+
+            <map name="workmap">
+            <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+            <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+            <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm">
+            </map>
+            <!--beak tag and Styling-->
+            <p style="color: red">My name is <br> Prathamesh</p>
+            <p style="font-size: 20px;">Loda lelo</p>
+            <p style="font-family: Verdana, Geneva, Tahoma, sans-serif; text-align: center;font-style: oblique; color: rgba(255, 196, 196, 0.593);background-color: black;">My name is Prathamesh</p>
+            <p><b><i>IIIT DHARWAD</i></b></p>
+            <p><b><strong><em><del>IIIT <ins>DHARWAD</ins></del></em></strong></b></p>
+            <video src="https://www.youtube.com/watch?v=S5bfdUTrKLM">Leetcode problem</video>
+            <p>H<sub>2</sub>O</p>
+            <p>This is <sup>superscripted</sup> Text</p>
+            <!--Quotations-->
+            <blockquote>For 60 years, WWF has worked to help people and nature thrive. As the world's leading conservation organization, WWF works in nearly 100 countries. At every level, we collaborate with people around the world to develop and deliver innovative solutions that protect communities, wildlife, and the places in which they live.</blockquote>
+            <p>quote: <q>OLS IS GOLD</q></p>
+            <!--Address-->
+            <address>
+                Written by John Doe.<br>
+                Visit us at:<br>
+                Example.com<br>
+                Box 564, Disneyland<br>
+                USA
+            </address>
+            <style>
+                /* body {
+                    background-image: url('2.jpg.avif');
+                } */
+            </style>
+            <!--cite For Work Title-->
+            <p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
+            <bdo dir="rtl">LODA</bdo>
+            <p style="background-color: brown; color: bisque;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+            <!-- Working with tables -->
+            <table>
+                <tr>
+                    <th></th>
+                    <th>Person 1</th>
+                    <th>Person 2</th>
+                    <th>Person 3</th>
+                </tr>
+                <tr>
+                    <td>name</td>
+                    <td>Emil</td>
+                    <td>Tobias</td>
+                    <td>Linus</td>
+                </tr>
+                <tr>
+                    <td>age</td>
+                    <td>16</td>
+                    <td>14</td>
+                    <td>10</td>
+                </tr>
+            </table>
+
+            <table>
+                <tr>
+                    <th>LODA</th>
+                    <th>LASSAN</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <th colspan="3">Prathamesh Patil</th>
+                </tr>
+                <tr>
+                    <td rowspan="2">Lionel</td>
+                    <td>Messi</td>
+                    <td>King</td>
+                </tr>
+                <tr>
+                    <td>CR7</td>
+                    <td>Neymar</td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <th></th>
+                    <th>Mon</th>
+                    <th>Tue</th>
+                    <th>Wed</th>
+                    <th>thurs</th>
+                    <th>Fri</th>
+                    <th>Sat</th>
+                    <th>Sun</th>
+                </tr>
+                <tr>
+                    <td>9 AM</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>12 NOON</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>3 PM</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>6 PM</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>9PM </td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+            <ul style="list-style-type: square;">
+                <li>COFFEE</li>
+                <li>TEA</li>
+                <li>SODA</li>
+            </ul>
+            <ol type="1">
+                <li>Milk</li>
+                <li>Water</li>
+                <li>Breastmilk</li>
+            </ol>
+            <ol type="A">
+                <li>Milk</li>
+                <li>Water</li>
+                <li>Breastmilk</li>
+            </ol>
+            <ol type="a">
+                <li>Milk</li>
+                <li>Water</li>
+                <li>Breastmilk</li>
+            </ol>
+            <dl>
+                <dt>Coffee</dt>
+                <dd>- black hot drink</dd>
+                <dd>- milked is shit</dd>
+                <dt>Milk</dt>
+                <dd>- white cold drink</dd>
+            </dl>
+    
+        </body>
+</html>
