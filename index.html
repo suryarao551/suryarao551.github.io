@@ -1,48 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>
-        These are html elements
-    </h1>
-    <p>
-        This is the syntax of html
-    </p>
-    <button id ="mybutton">
-        Hello
-    </button>
-    <script>
-         document.getElementById("mybutton").addEventListener("click", function() {
-        var outputElement = document.getElementById("output");
-        if (outputElement.innerHTML === "Hello World") {
-            outputElement.innerHTML = "";
-        } else {
-            outputElement.innerHTML = "Hello World";
-        }
-    });
-    </script>
-    <p id = "output"></p>
-    <style>
-        h1 {
-            color: red;
-        }
-    </style>
-    <a href = "https://github.com/dashboard">
-        Link to Github
-    </a>
-    <p>
-        Html attributes 
-    </p>
-    <a href = "https://www.youtube.com/" target = "_blank">
-        Link to youtube
-    </a>
-    <p>
-        This is a big        space 
-    </p>
-
-</body>
+<!doctype html>
+<html>
+  <head>
+    <title>This is the title of the webpage!</title>
+  </head>
+  <body>
+    <p>This is an example paragraph. Anything in the <strong>body</strong> tag will appear on the page, just like this <strong>p</strong> tag and its contents.</p>
+  </body>
 </html>
